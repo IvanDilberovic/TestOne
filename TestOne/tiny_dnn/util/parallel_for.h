@@ -23,8 +23,8 @@
 #ifndef NOMINMAX
 #define NOMINMAX  // tbb includes windows.h in tbb/machine/windows_api.h
 #endif
-#include <tbb/task_group.h>
-#include <tbb/tbb.h>
+#include <tbb\task_group.h>
+#include <tbb\tbb.h>
 #endif
 
 #if !defined(CNN_USE_OMP) && !defined(CNN_SINGLE_THREAD)
